@@ -2,11 +2,17 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import ImageView from "../views/image.vue"
 import NewsView from "../views/news.vue"
+import FaceView from "../views/face.vue"
+
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: "/face",
+    component: FaceView
   },
   {
     path: "/image",
